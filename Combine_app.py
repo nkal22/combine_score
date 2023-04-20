@@ -336,5 +336,5 @@ def make_figures(year, player, position):
     return percent_table, score_table, avg_score, spider_fig, spider_drills
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server(debug=False)
 
