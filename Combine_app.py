@@ -8,8 +8,6 @@ import pandas as pd
 import numpy as np
 pd.options.mode.chained_assignment = None
 from scipy.stats import percentileofscore
-import warnings
-warnings.filterwarnings("ignore")
 
 agility_scores = pd.read_csv('https://raw.githubusercontent.com/nkal22/combine_score/main/agility_scores.csv', header = 1).rename(columns={'LANE AGILITY TIME \n(SECONDS)':'Lane Agility', 'SHUTTLE RUN \n(SECONDS)':'Shuttle Run', 'THREE QUARTER SPRINT \n(SECONDS)':'Three Quarter Sprint', 'STANDING VERTICAL LEAP \n(INCHES)':'Standing Vert', 'MAX VERTICAL LEAP \n(INCHES)':'Max Vert'}).drop('MAX BENCH PRESS \n(REPETITIONS)', axis = 1)
 size_grades = pd.read_csv('https://raw.githubusercontent.com/nkal22/combine_score/main/Size_grades.csv', header = 1).rename(columns={'HAND LENGTH (INCHES)':'Hand Length', 'HAND WIDTH (INCHES)':'Hand Width', 'HEIGHT W/O SHOES':'Height W/O Shoes', 'STANDING REACH':'Standing Reach', 'WEIGHT (LBS)':'Weight', 'WINGSPAN': 'Wingspan'}).drop(['BODY FAT %','HEIGHT W/ SHOES'], axis = 1)
