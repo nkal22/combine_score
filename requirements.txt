@@ -6,5 +6,4 @@ scipy
 plotly
 jupyter_dash
 plotly.express
-plotly.graph_objects
 dash_bootstrap_components
