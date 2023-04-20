@@ -1,0 +1,6 @@
+dash==2.6.0
+pandas
+numpy
+scipy
+warnings
+plotly
