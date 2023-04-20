@@ -1,7 +1,6 @@
 dash==2.6.0
+gunicorn
 pandas
 numpy
 scipy
-warnings
 plotly
-gunicorn
