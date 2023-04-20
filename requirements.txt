@@ -5,5 +5,5 @@ numpy
 scipy
 plotly
 jupyter_dash
-plotly.express
+plotly-express
 dash_bootstrap_components
