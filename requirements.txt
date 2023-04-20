@@ -4,3 +4,4 @@ numpy
 scipy
 warnings
 plotly
+gunicorn
