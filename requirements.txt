@@ -1,5 +1,4 @@
 dash==2.6.0
-gunicorn
 pandas
 numpy
 scipy
@@ -8,3 +7,4 @@ jupyter_dash
 plotly-express
 plotly.express
 dash_bootstrap_components
+gunicorn
