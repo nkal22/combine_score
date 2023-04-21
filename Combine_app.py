@@ -7,11 +7,8 @@ warnings.filterwarnings("ignore")
 import plotly.graph_objects as go
 import plotly.express as px
 import plotly.figure_factory as ff
-import dash
 from jupyter_dash import JupyterDash
-from dash import dcc
-from dash import html 
-from dash.dependencies import Input, Output, State
+from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 
 agility_scores = pd.read_csv('https://raw.githubusercontent.com/nkal22/combine_score/main/agility_scores.csv', header = 1).rename(columns={'LANE AGILITY TIME \n(SECONDS)':'Lane Agility', 'SHUTTLE RUN \n(SECONDS)':'Shuttle Run', 'THREE QUARTER SPRINT \n(SECONDS)':'Three Quarter Sprint', 'STANDING VERTICAL LEAP \n(INCHES)':'Standing Vert', 'MAX VERTICAL LEAP \n(INCHES)':'Max Vert'}).drop('MAX BENCH PRESS \n(REPETITIONS)', axis = 1)
