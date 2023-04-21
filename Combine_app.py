@@ -147,7 +147,7 @@ percentiles_df = percentiles_df.rename(columns={"Column": "Drill/Attribute"})
 branham_tab = percentiles_df.loc[percentiles_df['Player'] == 'Malaki Branham']
 branham_scores = scores_df.loc[scores_df['Player'] == 'Malaki Branham']
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 tabs_styles = {
