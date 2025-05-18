@@ -384,7 +384,7 @@ Justin Jackson (UMD),SF,11.78,3.08,3.43,26.5,31.5,-,2017
 Justin Jackson (UNC),SF,10.8,3.06,3.3,29.5,35.5,-,2017
 Peter Jok,SG-SF,11.34,2.93,3.41,26.5,31,-,2017
 Luke Kennard,SG-SF,-,-,-,-,-,-,2017
-Kyle Kuzma,SF-SG,10.72,2.98,3.25,27,34,12,2017
+Kyle Kuzma,SF-PF,10.72,2.98,3.25,27,34,12,2017
 TJ Leaf,PF,11.55,3.27,3.27,29,34.5,6,2017
 Tyler Lydon,PF,11.68,2.81,3.46,29.5,33.5,1,2017
 Frank Mason III,PG,11.41,3.09,3.18,34,41,15,2017
@@ -1286,7 +1286,7 @@ Brandon Hunter,PF,11.13,-,3.21,32.5,35,25,2003
 Sani Ibrahim,C-PF,13.02,-,3.4,26,30.5,12,2003
 Michael Ignerski,PF-SF,11.21,-,3.13,26.5,33,10,2003
 Robert Jackson,PF-C,11.26,-,3.25,23.5,26,15,2003
-LeBron James,SF-SG,-,-,-,-,-,-,2003
+LeBron James,SF-PF,-,-,-,-,-,-,2003
 Britton Johnsen,SF-PF,10.67,-,3.08,26.5,32.5,13,2003
 James Jones,SF,11.18,-,3.19,30.5,33,9,2003
 Dahntay Jones,SG-SF,10.91,-,3.11,30,39.5,-,2003
@@ -1322,7 +1322,7 @@ Sasha Vujacic,PG-SG,-,-,-,-,-,-,2003
 Dwyane Wade,SG-SF,10.56,-,3.08,31.5,35,9,2003
 Wayne Wallace,PF,11.85,-,3.24,29.5,36,6,2003
 Luke Walton,SF-PF,-,-,-,28,-,12,2003
-David West,PF-SF,12.18,-,3.43,28.5,31.5,11,2003
+David West,PF,12.18,-,3.43,28.5,31.5,11,2003
 Mo Williams,PG-SG,-,-,-,-,-,3,2003
 Wesley Wilson,C-PF,12.19,-,3.3,27,30.5,20,2003
 Doug Wrenn,SF-PF,11.38,-,3.17,34.5,41,15,2003
@@ -1410,7 +1410,7 @@ Jay Williams,PG,10.34,-,3.09,28.5,36,10,2002
 Qyntel Woods,SF-SG,11.94,-,3.23,33.5,34.5,2,2002
 Vincent Yarbrough,SF,11.7,-,3.32,30,34,10,2002
 Adam Allenspach,C,11.9,-,3.4,28.5,31,16,2001
-Gilbert Arenas,SG,-,-,3.25,31.5,36,12,2001
+Gilbert Arenas,PG-SG,-,-,3.25,31.5,36,12,2001
 Brandon Armstrong,SG,10.91,-,3.2,30,37,6,2001
 Shane Battier,SF-PF,10.95,-,3.3,29.5,33,12,2001
 Cookie Belcher,SG-PG,11.26,-,2.91,35,41.5,7,2001
